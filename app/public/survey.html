@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder Page</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+
+<div>
+     <div> 
+        <button class = "submitForm">Submit</button>
+      </div> 
+    
+    <h1 class="text-center"> Survey Questions</h1>
+    <hr>
+<!-- About Me Questions -->
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name (Required)</label>
+        <input type="name" class="form-control" id="name" aria-describedby="emailHelp">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Link to Photo Image (Required)</label>
+        <input type="photoLink" class="form-control" id="photoLink">
+    </div>
+
+    <hr>
+
+<!-- Survey Questions -->
+    <div class="form-group">
+
+      <label for="formGroupExampleInput">Question 1</label> <br>
+      <label for="formGroupExampleInput">While waiting in line, I will strike up a conversation with a stranger.</label>
+
+      <div class=“input-group-prepend”>
+        <label class=“input-group-text” for="question1">Select</label>
+        <div>
+            <select class=“custom-select” id="question1">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+
+    </div>
+
+    
+
+    <div class="form-group">
+        <label for="formGroupExampleInput">Question 2</label> <br>
+        <label for="formGroupExampleInput2">I enjoy having roommates.</label>
+        
+        <div class=“input-group-prepend”>
+        <label class=“input-group-text” for="question2">Select</label>
+        <div>
+            <select class=“custom-select” id="question2">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="form-group">
+        <label for="formGroupExampleInput">Question 3</label> <br>
+        <label for="formGroupExampleInput2">I plan trips very carefully before I go.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question3">Select</label>
+            <div>
+              <select class=“custom-select” id="question3">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 4</label> <br>
+        <label for="formGroupExampleInput2">I have a very messy desk.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question4">Select</label>
+            <div>
+              <select class=“custom-select” id="question4">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 5</label> <br>
+        <label for="formGroupExampleInput2">My heart rules my head.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question5">Select</label>
+            <div>
+              <select class=“custom-select” id="question5">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+      
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 6</label> <br>
+        <label for="formGroupExampleInput2">I'm more interested in doing things the more traditional way.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question6">Select</label>
+            <div>
+              <select class=“custom-select” id="question6">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 7</label> <br>
+        <label for="formGroupExampleInput2">I find it easy to talk to strangers at parties.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question7">Select</label>
+            <div>
+              <select class=“custom-select” id="question7">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 8</label> <br>
+        <label for="formGroupExampleInput2">I like to have all the details about a new project before I start it.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question8">Select</label>
+            <div>
+              <select class=“custom-select” id="question8">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 9</label> <br>
+        <label for="formGroupExampleInput2">I enjoy being creative.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question9">Select</label>
+            <div>
+              <select class=“custom-select” id="question9">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+              </select>
+            </div>
+        </div> 
+
+      </div>
+
+      <div class="form-group">
+        <label for="formGroupExampleInput">Question 10</label> <br>
+        <label for="formGroupExampleInput2">I need to get to know someone well before we can become close.</label>
+        
+        <div class=“input-group-prepend”>
+            <label class=“input-group-text” for="question10">Select</label>
+            <div>
+              <select class=“custom-select” id="question10">
+                <option selected>Choose an Option</option>
+                <option value=“1”>1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value=“3”>3</option>
+                <option value="4">4</option>
+                <option value=“5”>5 (Strongly Agree)</option>
+            </div>
+        </div>
+        <!-- <div>
+            <button>Submit</button>
+        </div> -->
+
+      </div>
+
+      <!-- <div>
+        <button>Submit</button>
+      </div> -->
+</div>
+
+<script>
+  $(".submitForm").on("click", function(event) {
+    event.preventDefault();
+
+    // Grab the survey elements
+    var newFriend = {
+      friendName: $("#name").val().trim(),
+      friendPhoto: $("#photoLink").val().trim(),
+      // Correct class??
+      scores: [
+        $("#question1").val(), 
+        $("#question2").val(), 
+        $("#question3").val(), 
+        $("#question4").val(),
+        $("#question5").val(),
+        $("#question6").val(),
+        $("#question7").val(),
+        $("#question8").val(),
+        $("#question9").val(),
+        $("#question10").val()
+        
+    ]};
+  console.log(newFriend);
+
+    
+
+    $.post("/api/friends", newFriend,
+    function(data) {
+
+      // Clear the form when submitting
+      $("#name").val("");
+      $("#photoLink").val("");
+      // Correct class??
+      $("#custom-select").val("");
+
+    });
+
+});
+  
+</script>
+
+
+
+
+</body>
+</html>
