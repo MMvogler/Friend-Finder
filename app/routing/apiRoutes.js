@@ -17,6 +17,13 @@ app.get("/api/friends", function(req, res) {
 
 app.post("/api/friends", function(req, res) {
     console.log(req.body);
+
+    // var usersMatch = {
+    //     name: "",
+    //     photo: "",
+    //     scoreComparison: 800
+    // };
+
     
   
 });
